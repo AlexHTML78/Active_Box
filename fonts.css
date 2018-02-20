@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'Cubano_Regular';
+    src: url('fonts/cubano-regular-webfont.eot');
+    src: url('fonts/cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cubano-regular-webfont.woff') format('woff'),
+         url('fonts/cubano-regular-webfont.ttf') format('truetype'),
+         url('fonts/cubano-regular-webfont.svg#CubanoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Brandon_Regular';
+  src: url('fonts/Brandon_Regular/BrandonGrotesque-Regular.eot');
+  src: url('fonts/Brandon_Regular/BrandonGrotesque-Regular.woff2') format('woff2'),
+       url('fonts/Brandon_Regular/BrandonGrotesque-Regular.woff') format('woff'),
+       url('fonts/Brandon_Regular/BrandonGrotesque-Regular.ttf') format('truetype'),
+       url('fonts/Brandon_Regular/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg'),
+       url('fonts/Brandon_Regular/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon_Black';
+  src: url('fonts/Brandon_Black/BrandonGrotesque-Black.eot');
+  src: url('fonts/Brandon_Black/BrandonGrotesque-Black.woff2') format('woff2'),
+       url('fonts/Brandon_Black/BrandonGrotesque-Black.woff') format('woff'),
+       url('fonts/Brandon_Black/BrandonGrotesque-Black.ttf') format('truetype'),
+       url('fonts/Brandon_Black/BrandonGrotesque-Black.svg#BrandonGrotesque-Black') format('svg'),
+       url('fonts/Brandon_Black/BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Brandon_Medium';
+  src: url('fonts/Brandon_Medium/BrandonGrotesque-Medium.eot');
+  src: url('fonts/Brandon_Medium/BrandonGrotesque-Medium.woff2') format('woff2'),
+       url('fonts/Brandon_Medium/BrandonGrotesque-Medium.woff') format('woff'),
+       url('fonts/Brandon_Medium/BrandonGrotesque-Medium.ttf') format('truetype'),
+       url('fonts/Brandon_Medium/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg'),
+       url('fonts/Brandon_Medium/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Brandon_Light';
+  src: url('fonts/Brandon_Light/BrandonGrotesque-Light.eot');
+  src: url('fonts/Brandon_Light/BrandonGrotesque-Light.woff2') format('woff2'),
+       url('fonts/Brandon_Light/BrandonGrotesque-Light.woff') format('woff'),
+       url('fonts/Brandon_Light/BrandonGrotesque-Light.ttf') format('truetype'),
+       url('fonts/Brandon_Light/BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg'),
+       url('fonts/Brandon_Light/BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon_Bold';
+  src: url('fonts/Brandon_Bold/BrandonGrotesque-Bold.eot');
+  src: url('fonts/Brandon_Bold/BrandonGrotesque-Bold.woff2') format('woff2'),
+       url('fonts/Brandon_Bold/BrandonGrotesque-Bold.woff') format('woff'),
+       url('fonts/Brandon_Bold/BrandonGrotesque-Bold.ttf') format('truetype'),
+       url('fonts/Brandon_Bold/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg'),
+       url('fonts/Brandon_Bold/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon_Thin';
+  src: url('fonts/Brandon_Thin/BrandonGrotesque-Thin.eot');
+  src: url('fonts/Brandon_Thin/BrandonGrotesque-Thin.woff2') format('woff2'),
+       url('fonts/Brandon_Thin/BrandonGrotesque-Thin.woff') format('woff'),
+       url('fonts/Brandon_Thin/BrandonGrotesque-Thin.ttf') format('truetype'),
+       url('fonts/Brandon_Thin/BrandonGrotesque-Thin.svg#BrandonGrotesque-Thin') format('svg'),
+       url('fonts/Brandon_Thin/BrandonGrotesque-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+

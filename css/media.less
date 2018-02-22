@@ -1,2 +1,137 @@
 @raleway: 'Raleway', sans-serif;
 @opensans: 'Open Sans', sans-serif;
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+    header {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width:767px) {
+    header {
+        height: 600px;
+        .container .header_main{
+            margin-top: 3em;
+            h1 {
+              font-size: 2em;
+            }
+            p {
+                margin-bottom: 1.5em;
+            }
+      }
+    }
+    .features {
+        height: 1500px;
+        .row {
+            margin: 0;
+        }
+    .feature_item {
+        margin-bottom: 2em;
+    }
+  }
+    .download {
+        height: 350px;
+        .section_heading {
+            h1 {
+                line-height: 40px;
+            }
+        }
+    }
+    .contact {
+        height: 350px;
+        flex-direction: column;
+        align-items: center;
+        div {
+            margin-bottom: 1.3em;
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:424px) {
+    header {
+        height: 1000px;
+    }
+    .download {
+        padding: 0;
+        height: 240px;
+        .section_heading {
+            h1 {
+                line-height: 40px;
+                font-size: 1.5em;
+            }
+            p {
+                font-size: .6em;
+            }
+        }
+    }
+     .contact {
+        height: 370px;
+        padding: 40px 0;
+        flex-direction: column;
+        align-items: center;
+        div {
+            margin-bottom: 1.3em;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+     .team {
+        height: 2300px;
+        .team_item {
+            align-items: center;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            text-align: center;
+        }
+    }
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     .testimotionals .slider .slide{
+         display: -webkit-flex;
+         display: -moz-flex;
+         display: -ms-flex;
+         display: -o-flex;
+         display: flex;
+         flex-direction: column;
+       .left {
+           width: 100%;
+        img {
+            min-height: auto;
+        }
+    }
+        .right {
+            width: 100%;
+            padding: 30px 10px 20px;
+            p {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:990px) {
+    .team {
+        height: 2150px;
+        .team_item {
+            align-items: center;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            text-align: center;
+        }
+    }
+}

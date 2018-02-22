@@ -9,10 +9,12 @@ header {
     background: url(../img/head_bg.jpg) no-repeat center;
     background-size: cover;
     height: 750px;
-    .top_line .row {
+    .container {
+            width: 90%;
+        .row {
         padding: 40px 0;
         .top_nav .logo {
-            width: 189px;
+            width: 150px;
             height: 24px;
         }
         .top_nav li {
@@ -33,6 +35,15 @@ header {
             &:last-child {
                 margin-right: 0;
             }
+        }
+        .burger {
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: 2px solid @white;
+            border-radius: 5px;
+            color: @white;
+            
         }
     }
     .hr {
@@ -76,8 +87,8 @@ header {
             &:hover {
                 background: #e53434;
             }
-        }
-    }
+        }}
+      }
 }
 .features {
     height: 700px;
@@ -132,7 +143,7 @@ header {
             display: none;
         }
         img{
-        min-width: 100%
+        width: 100%
         }
     }
     .overlay:hover .hidden_text {
@@ -145,21 +156,20 @@ header {
         font-family: @raleway;
         text-align: center;
         background: rgba(228, 80, 78, 0.7);
-        padding-top: calc(50%-20px);
+        padding-top: 35%;
         h3 {
-             font-size: 14px;
+             font-size: 0.875em;
              font-weight: 700;
              text-transform: uppercase;
         }
         p {
-              font-size: 14px;
+              font-size: 0.875em;
               font-weight: 400;
         }
     }
 }
 .team {
-    height: 500px;
-    padding: 100px 0;
+    height: 600px;
     .team_item {
         img {
             margin-bottom: 30px;
@@ -206,9 +216,204 @@ header {
                     line-height: 40px;
                     text-decoration: none;
                     &:hover {
-                    color: #acafb1;
+                    color: #c6cacc;
                 }
                 }
+            }
+        }
+    }
+}
+
+.testimotionals {
+    width: 100%;
+    min-height: 400px;
+    padding-top: 100px;
+    .slide {
+      display: flex;
+      flex-direction: row;
+      .left {
+          width: 50%;
+          img {
+             max-width: 100%;
+             min-height: 400px;
+          }
+    }
+      .right {
+          width: 50%;
+          padding: 100px 30px 30px;
+          background-color: #53354a;
+          .feed_text {
+           color: #ffffff;
+           font-family: @cardo;
+           font-size: 36px;
+           font-style: italic;
+           line-height: 42px;
+              &::before {
+                  content: '“';
+                  font-family: @cardo;
+              }
+              &::after {
+                  content: '”';
+                  font-family: @cardo;
+              }
+          }
+          .feed_author {
+              color: #ffffff;
+              font-family: @raleway;
+              font-size: 13px;
+              font-weight: 700;
+              line-height: 21px;
+              text-transform: uppercase;
+          }
+    }
+    }
+}
+
+
+
+
+.download {
+    height: 400px;
+    padding: 100px 0;
+    .section_heading {
+        h1 {
+            color: #2d3033;
+            font-family: @raleway;
+            text-align: center;
+            font-size: 28px;
+            font-weight: 300;
+            line-height: 21px;
+        }
+        p {
+            color: #2d3033;
+            font-family: @raleway;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 21px;
+            text-transform: uppercase;
+            margin: 16px 0 40px 0;
+        }
+    }
+    .cta_btn {
+        display: block;
+        width: 280px;
+        height: 46px;
+        background-color: #e84545;
+        border: none;
+        outline: none;
+        margin: 0 auto;
+        color: #ffffff;
+        font-family: @raleway;
+        font-size: 0.813em;
+        font-weight: 600;
+        line-height: 21px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            background: #e53434;
+        }
+    }
+}
+
+.contact {
+    height: 250px;
+    background-color: #3a3e64;
+    padding: 70px 0;
+    text-align: center;
+    .location {
+        h3 {
+            color: #ffffff;
+            font-family: @raleway;
+            font-size: 0.875em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.5);
+            font-family: @raleway;
+            font-size: 0.875em;
+            font-weight: 400;
+            line-height: 22.5px;
+        }
+    }
+    .sharing {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            color: #ffffff;
+            font-family:@raleway;
+            font-size: 0.875em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .socials {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            .social_icon {
+                width: 40px;
+                height: 40px;
+                border: 1px solid #e8ecee;
+                margin-right: 5px;
+                &:last-child {
+                    margin: 0;
+                }
+                a {
+                    text-align: center;
+                    display: block;
+                    color: #c6cacc;
+                    line-height: 40px;
+                    text-decoration: none;
+                    &:hover {
+                    color: #aaaaaa;
+                }
+                }
+            }
+        }
+    }
+    .about {
+        h3 {
+            color: #ffffff;
+            font-family: @raleway;
+            font-size: 0.875em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.56);
+            font-family: @raleway;
+            font-size: 0.875em;
+            font-weight: 400;
+            line-height: 1.406em;
+        }
+    }
+}
+
+footer {
+    height: 100px;
+    background-color: #313454;
+    padding: 30px 0;
+    .copyright {
+        width: 312px;
+        margin: 0 auto;
+        text-align: center;
+        p { 
+        color: #808080;
+        font-family: @raleway;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 1.406em;
+            span {
+                color: #e84545;
+                font-family: 'Webdings';
             }
         }
     }

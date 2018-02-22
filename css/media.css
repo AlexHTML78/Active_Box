@@ -1,0 +1,151 @@
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  header {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  header {
+    height: 600px;
+  }
+  header .container .header_main {
+    margin-top: 3em;
+  }
+  header .container .header_main h1 {
+    font-size: 2em;
+  }
+  header .container .header_main p {
+    margin-bottom: 1.5em;
+  }
+  .features {
+    height: 1500px;
+  }
+  .features .row {
+    margin: 0;
+  }
+  .features .feature_item {
+    margin-bottom: 2em;
+  }
+  .download {
+    height: 350px;
+  }
+  .download .section_heading h1 {
+    line-height: 40px;
+  }
+  .contact {
+    height: 350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact div {
+    margin-bottom: 1.3em;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  header {
+    height: 1000px;
+  }
+  .download {
+    padding: 0;
+    height: 240px;
+  }
+  .download .section_heading h1 {
+    line-height: 40px;
+    font-size: 1.5em;
+  }
+  .download .section_heading p {
+    font-size: .6em;
+  }
+  .contact {
+    height: 370px;
+    padding: 40px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact div {
+    margin-bottom: 1.3em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .team {
+    height: 2300px;
+  }
+  .team .team_item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  footer {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimotionals .slider .slide {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimotionals .slider .slide .left {
+    width: 100%;
+  }
+  .testimotionals .slider .slide .left img {
+    min-height: auto;
+  }
+  .testimotionals .slider .slide .right {
+    width: 100%;
+    padding: 30px 10px 20px;
+  }
+  .testimotionals .slider .slide .right p {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 990px) {
+  .team {
+    height: 2150px;
+  }
+  .team .team_item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+}
